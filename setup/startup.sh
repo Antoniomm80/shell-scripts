@@ -19,7 +19,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 curl -sS https://starship.rs/install.sh | sh
 brew install fzf
 brew install bat
+brew install eza
+brew install tldr
+brew install thefuck
 #Kubernetes
 brew install kubectl
 brew install kubectx
 brew install derailed/k9s/k9s
+#Docker
+brew install jesseduffield/lazydocker/lazydocker
